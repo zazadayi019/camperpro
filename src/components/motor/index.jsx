@@ -1,16 +1,15 @@
-import React from 'react'
-import Navbar from '../navbar'
-import Wallpaper from '../wallpaper';
-import Shoper from '../shoper';
-import Futer from '../futer';
+import React from "react";
+import Navbar from "../navbar";
+import "./style.css";
+import Wallpaper from "../wallpaper";
+import ShopComponents from "../shop";
 
 const MotorComponents = () => {
   return (
     <div>
-      <Navbar/>
-      <Wallpaper/>
-      <Shoper/>
-      <Futer/>
+      <Navbar />
+      <Wallpaper />
+      <ShopComponents />
     </div>
   );
 };
