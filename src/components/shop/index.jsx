@@ -4,7 +4,7 @@ import DataComponents from "./data";
 
 const ShopComponents = () => {
   return (
-    <div style={{ display: "flex" }} className="shop-wrapper">
+    <div className="shop-wrapper">
       <div className="filter-wrapper">
         <Filter />
       </div>
