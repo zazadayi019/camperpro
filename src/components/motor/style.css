@@ -6,11 +6,15 @@
   width: 100vw;
   height: 90px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 70px;
+  justify-content: center;
   background: #FFF;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.navbar-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1225px;
 }
 .logo {
   color: #006dab;
@@ -21,7 +25,6 @@
 .menubar {
   display: flex;
   align-items: center;
-  margin: 35px 95px 35px 150px;
   gap: 75px;
   color: #373737;
   font-size: 16px;
@@ -74,9 +77,7 @@
   display: flex;
   justify-content: center;
   padding: 47px 70px 0 70px;
-  border: 1px solid red;
   gap: 28px;
-
 }
 
 .filter-wrapper{
@@ -147,6 +148,31 @@
   font-weight: 700;
   border: none;
 }
+.compare{
+  display: flex;
+  flex-direction: column;
+}
+.comper-car-wrapper{
+  display: flex;
+  gap: 8px;
+}
+.compare p{
+  margin-top: 5px;
+  color: #006DAB;
+  font-size: 14px;
+  font-weight: 600;
+}
+.comper-car-wrapper img{
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+  width: 76px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 4px;
+}
 
 
 .shop{
@@ -168,6 +194,7 @@
   font-weight: 600;
 }
 .item-wrapper span{
+  margin-left: 10px;
   color: #006DAB;
 }
 .shop-filter{
@@ -186,6 +213,8 @@
   margin-right: 10px;
 }
 .select-wrapper input{
+  display: flex;
+  padding-left: 10px;
   width: 227px;
   height: 30px;
   border-radius: 5px;
@@ -195,7 +224,7 @@
   border-radius: 0px 5px 5px 0px;
   border: 1px solid rgba(55, 55, 55, 0.30);
   padding: 8.5px;
-  margin-left: -33.5px;
+  margin-left: -32px;
 }
 .wrapper-60{
   display: flex;
@@ -222,7 +251,7 @@
   padding: 6px 10px;
   border-radius: 5px 0px 0px 5px;
   border: 1px solid rgba(55, 55, 55, 0.30);
-  border-right: none;
+  background: #FFF;
 }
 .list{
   display: flex;
@@ -230,12 +259,13 @@
   padding: 4px 9px;
   border-radius: 0px 5px 5px 0px;
   border: 1px solid rgba(55, 55, 55, 0.30);
-  border-right: none;
+  background: #FFF;
 }
 .shop-line{
+  margin-top: 6px;
   width: 956px;
   height: 1px;
-  background: rgba(55, 55, 55, 0.50);
+  border: 1px solid rgba(55, 55, 55, 0.30);
 }
 .grid-wrapper{
   margin-top: 37px;
@@ -252,7 +282,7 @@
   border-radius: 20px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
   background: #FFF;
-  padding: 15px 0px 40px 0px;
+  padding: 15px 0px 20px 0px;
 }
 .car-wrapper p{
   display: flex;
@@ -269,7 +299,7 @@
   display: flex;
   align-items: center;
   font-size: 12px;
-  margin-right: 13px;
+  margin: 5px 13px 0 15px;
   font-weight: 400;
   color: #373737;
   gap: 3px;
@@ -288,7 +318,7 @@
   color: #006DAB;
   font-weight: 700;
   font-size: 22px;
-  margin-left: 15px;
+  margin: 18px 0 0 15px;
 }
 .shop-btn{
   display: flex;
@@ -296,6 +326,7 @@
   gap: 15px;
 }
 .shop-btn button{
+  margin-top: 13px;
   width: 94px;
   height: 35px;
   background: #FFF;
@@ -315,6 +346,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 37px;
   width: 955px;
   border-radius: 20px;
   background: #FFF;
@@ -343,7 +375,6 @@
 }
 .list-btn-wrapper button{
   width: 291.325px;
-  border-radius: 10px;
   border: 1px solid #006DAB;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
   height: 35px;
@@ -352,4 +383,48 @@
   font-weight: 700;
   border-radius: 20px;
   background: #FFF;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 350px; 
+  background: #006DAB;
+}
+.footer-title-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 120px;
+  width: 1225px;
+}
+.footer-logo p{
+  margin-top: 50px;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+}
+.services-wrapper{
+  display: flex;
+  margin-top: 64px;
+  flex-direction: column;
+  color: #FFF;
+}
+.services-wrapper h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.services-wrapper p{
+  display: flex;
+  margin-top: 9px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.services-wrapper div{
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }

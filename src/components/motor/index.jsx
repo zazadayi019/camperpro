@@ -3,6 +3,7 @@ import Navbar from "../navbar";
 import "./style.css";
 import Wallpaper from "../wallpaper";
 import ShopComponents from "../shop";
+import Footer from "../footer";
 
 const MotorComponents = () => {
   return (
@@ -10,6 +11,7 @@ const MotorComponents = () => {
       <Navbar />
       <Wallpaper />
       <ShopComponents />
+      < Footer />
     </div>
   );
 };

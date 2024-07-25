@@ -1,5 +1,6 @@
 import React from "react";
 import drop from "../../assets/drop.png";
+import compare2 from "../../assets/compare2.png";
 
 const Filter = () => {
   return (
@@ -112,6 +113,14 @@ const Filter = () => {
       <div className="button-wrapper">
         <button style={{ background: " #FF7A00" }}>Cancel</button>
         <button style={{ background: " #006DAB" }}>Search</button>
+      </div>
+      <div className="compare">
+        <p>Compare</p>
+        <div className="comper-car-wrapper">
+        <img src={compare2} alt="compare2-img" />
+        <img src={compare2} alt="compare2-img" />
+        <img src={compare2} alt="compare3-img" />
+        </div>
       </div>
     </div>
   );
