@@ -1,19 +1,15 @@
 import React from "react";
-import Navbar from "../navbar";
 import "./style.css";
-import Wallpaper from "../wallpaper";
-import ShopComponents from "../shop";
-import Footer from "../footer";
+import WallpaperComponent from "./wallpaper";
+import ShopComponent from "./shop";
 
-const MotorComponents = () => {
+const MotorComponent = () => {
   return (
     <div>
-      <Navbar />
-      <Wallpaper />
-      <ShopComponents />
-      < Footer />
+      <WallpaperComponent />
+      <ShopComponent />
     </div>
   );
 };
 
-export default MotorComponents;
+export default MotorComponent;

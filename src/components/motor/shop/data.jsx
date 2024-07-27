@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import drop from "../../assets/drop.png";
-import grid from "../../assets/grid.png";
-import list from "../../assets/list.png";
-import Grid from "./grid";
-import Listcar from "./datalist";
+import drop from "../../../assets/drop.png";
+import grid from "../../../assets/grid.png";
+import list from "../../../assets/list.png";
+import Listcar from "../../motor/shop/datalist";
+import Grid from "../../motor/shop/grid";
 
-const Shop = () => {
-  const [pages, setpages] = useState(false)
+const ShopComponent = () => {
+  const [pages, setpages] = useState(false);
   return (
     <div>
       <div className="shop">
@@ -35,10 +35,10 @@ const Shop = () => {
           </div>
         </div>
         <div className="shop-line"></div>
-        {pages ? <Listcar/> : <Grid/>}
+        {pages ? <Listcar /> : <Grid />}
       </div>
     </div>
   );
 };
 
-export default Shop;
+export default ShopComponent;

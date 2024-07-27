@@ -1,18 +1,18 @@
 import React from "react";
-import Filter from "./filter";
-import DataComponents from "./data";
+import FilterComponent from "./filter";
+import DataComponent from "./data";
 
-const ShopComponents = () => {
+const ShopComponent = () => {
   return (
     <div className="shop-wrapper">
       <div className="filter-wrapper">
-        <Filter />
+        <FilterComponent />
       </div>
       <div className="data-wrapper">
-        <DataComponents />
+        <DataComponent />
       </div>
     </div>
   );
 };
 
-export default ShopComponents;
+export default ShopComponent;

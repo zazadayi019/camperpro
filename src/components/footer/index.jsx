@@ -3,7 +3,7 @@ import youtube from "../../assets/youtube.png";
 import Vector from "../../assets/Vector.png";
 import naver from "../../assets/naver.png";
 
-const Footer = () => {
+const FooterComponent = () => {
   return (
     <div className="footer">
       <div className="footer-title-wrapper">
@@ -40,4 +40,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterComponent;

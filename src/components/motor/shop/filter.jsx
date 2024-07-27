@@ -1,6 +1,6 @@
 import React from "react";
-import drop from "../../assets/drop.png";
-import compare2 from "../../assets/compare2.png";
+import drop from "../../../assets/drop.png";
+import compare2 from "../../../assets/compare2.png";
 
 const Filter = () => {
   return (

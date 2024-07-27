@@ -1,6 +1,6 @@
 import React from "react";
-import shopcar from "../../assets/shopcar.png";
-import star from "../../assets/star.png";
+import shopcar from "../../../assets/shopcar.png";
+import star from "../../../assets/star.png";
 
 const Grid = () => {
   return (
