@@ -13,27 +13,42 @@ const NavbarComponent = () => {
           <p>Camper</p>
         </div>
         <div className="menubar">
-          <Link to={"/motor"}>
+          <Link
+            to={"/motor"}
+            style={{ textDecoration: "none", color: "#373737" }}
+          >
             <p>
               Motor <img src={drop} alt="" />
             </p>
           </Link>
-          <Link to={"/caravan"}>
+          <Link
+            to={"/caravan"}
+            style={{ textDecoration: "none", color: "#373737" }}
+          >
             <p>
               Caravan <img src={drop} alt="" />
             </p>
           </Link>
-          <Link to={"/tuning"}>
+          <Link
+            to={"/tuning"}
+            style={{ textDecoration: "none", color: "#373737" }}
+          >
             <p>
               Tuning <img src={drop} alt="" />
             </p>
           </Link>
-          <Link to={"/usedcar"}>
+          <Link
+            to={"/usedcar"}
+            style={{ textDecoration: "none", color: "#373737" }}
+          >
             <p>
               Used Car <img src={drop} alt="" />
             </p>
           </Link>
-          <Link to={"/campingplace"}>
+          <Link
+            to={"/campingplace"}
+            style={{ textDecoration: "none", color: "#373737" }}
+          >
             <p>Camping Place</p>
           </Link>
         </div>
