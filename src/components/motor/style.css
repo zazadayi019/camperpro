@@ -318,10 +318,14 @@
   font-size: 22px;
   font-weight: 700;
 }
+.name-of-the-car h2:nth-child(1) {
+  border: 1px solid red;
+  color: #373737;
+}
 .list-brandname {
   display: flex;
   justify-content: space-between;
-  margin-right: 10px;
+  margin: 5px 10px 45px 0;
 }
 .list-btn-wrapper {
   display: flex;
